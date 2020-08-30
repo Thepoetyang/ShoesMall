@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>查询结果</title>
+    <link rel="stylesheet" type="text/css" href="../res/static/css/main.css">
+    <link rel="stylesheet" type="text/css" href="../res/layui/css/layui.css">
+    <script type="text/javascript" src="../res/layui/layui.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <style>
+        #sqlout{
+            width:100%;
+            height: 2000px;
+            border: 1px solid red;
+            /*top:20%;*/
+            left: 0;
+            right: 0;
+            margin:10px;
+            background-image:url("../res/static/img/query_img1.jpg");
+            opacity:0.4;
+            filter:alpha(opacity=40);
+
+            background-size: 100% 100%;
+            position:absolute;
+        }
+
+        .out1{
+            width:90%;
+            height:200px;
+            top:10px;
+            left: 1px;
+            right: 0;
+            margin:3px auto;
+            border: 1px solid black;
+            background-color: white;
+            position: relative;
+        }
+
+    </style>
+
+</head>
+<body onload="sc1()">
+
+<div class="site-nav-bg">
+    <div class="site-nav w1200">
+        <p class="sn-back-home">
+            <i class="layui-icon layui-icon-home"></i>
+            <a href="index.html">首页</a>
+        </p>
+        <div class="sn-quick-menu">
+            <div class="login"><a href="login.html">登录</a></div>
+            <div class="sp-cart"><a href="shopcart.html">购物车</a><span>2</span></div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="header">
+    <div class="headerLayout w1200">
+        <div class="headerCon">
+            <h1 class="mallLogo">
+                <a href="#" title="鞋鞋商城">
+                    <img src="../res/static/img/logo.png">
+                </a>
+            </h1>
+            <div class="mallSearch">
+                <form action="" class="layui-form" novalidate>
+                    <input type="text" name="title" required  lay-verify="required" autocomplete="off" class="layui-input" placeholder="请输入需要的商品">
+                    <button class="layui-btn" lay-submit lay-filter="formDemo">
+                        <i class="layui-icon layui-icon-search"></i>
+                    </button>
+                    <input type="hidden" name="" value="">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="content content-nav-base buytoday-content">
+    <div id="list-cont">
+        <div class="main-nav">
+            <div class="inner-cont0">
+                <div class="inner-cont1 w1200">
+                    <div class="inner-cont2">
+                        <a href="commodity.html">所有商品</a>
+                        <a href="buytoday.html" >今日团购</a>
+                        <a href="information.html">鞋鞋资讯</a>
+                        <a href="about.html">关于我们</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner-box">
+            <!--<div class="banner"></div>-->
+        </div>
+    </div>
+</div>
+<div id="sqlout">
+    <div class="out1">
+
+    </div>
+    <div class="out1">
+
+    </div>
+</div>
+
+</body>
+</html>

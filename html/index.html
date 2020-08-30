@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>鞋鞋商城首页</title>
+  <link rel="stylesheet" href="../res/static/css/style.css" />
+
+
+
+  <link rel="stylesheet" type="text/css" href="../res/static/css/main.css">
+  <link rel="stylesheet" type="text/css" href="../res/layui/css/layui.css">
+
+  <script type="text/javascript" src="../res/static/js/jquery.min.js"></script>
+  <script type="text/javascript" src="../res/static/js/style.js" ></script>
+
+  <script type="text/javascript" src="../res/layui/layui.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+</head>
+<body id="list-cont">
+  <div class="site-nav-bg">
+    <div class="site-nav w1200">
+      <p class="sn-back-home">
+        <i class="layui-icon layui-icon-home"></i>
+        <a href="index.html">首页</a>
+      </p>
+      <div class="sn-quick-menu">
+        <div class="login"><a href="login.html">登录</a></div>
+        <div class="sp-cart"><a href="shopcart.html">购物车</a><span>2</span></div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="header">
+    <div class="headerLayout w1200">
+      <div class="headerCon">
+        <h1 class="mallLogo">
+          <a href="#" title="鞋鞋商城">
+            <img src="../res/static/img/logo.png">
+          </a>
+        </h1>
+        <div class="mallSearch">
+          <form action="" class="layui-form" novalidate>
+            <input type="text" name="title" required  lay-verify="required" autocomplete="off" class="layui-input" placeholder="请输入需要的商品">
+            <button class="layui-btn" lay-submit lay-filter="formDemo">
+                <i class="layui-icon layui-icon-search"></i>
+            </button>
+            <input type="hidden" name="" value="">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="content">
+    <div class="main-nav">
+      <div class="inner-cont0">
+        <div class="inner-cont1 w1200">
+          <div class="inner-cont2">
+            <a href="commodity.html" class="active">所有商品</a>
+            <a href="buytoday.html">今日团购</a>
+            <a href="information.html">鞋鞋资讯</a>
+            <a href="about.html">关于我们</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="category-con">
+      <div class="category-inner-con w1200">
+        <div class="category-type">
+          <h3>全部分类</h3>
+        </div>
+        <div class="category-tab-content">
+          <!--<div class="nav-con">-->
+
+
+            <div class="nav_left">
+              <ul>
+                <li data-id="1"> <span>男鞋</span></li>
+                <li data-id="2"> <span>女鞋</span></li>
+                <li data-id="3"> <span>宝宝鞋 </span></li>
+                <li data-id="4"> <span>周边 </span></li>
+
+              </ul>
+            </div>
+            <div class="nav_right">
+              <div class="sub hide" data-id="1">
+                <dl>
+                  <dt><a >皮鞋 <i> &gt;</i></a> </dt>
+                  <dd>
+                    <a>牛津鞋</a>
+                    <a>德比鞋</a>
+                    <a>布洛克</a>
+                    <a>乐福鞋</a>
+                    <a>莫卡辛鞋</a>
+                    <a>切尔西靴</a>
+                    <a>短马靴</a>
+                    <a>沙漠靴</a>
+                    <a>马丁靴</a>
+                    <a>僧侣鞋</a>
+                  </dd>
+
+                </dl>
+                <dl>
+                  <dt><a >球鞋 <i> &gt;</i></a> </dt>
+                  <dd>
+                    <a>运动鞋</a>
+                    <a>跑步鞋</a>
+                    <a>篮球</a>
+                    <a>登山鞋</a>
+                    <a>网球鞋</a>
+                    <a>赛车鞋</a>
+
+                  </dd>
+
+                </dl>
+                <dl>
+                  <dt><a >休闲鞋 <i> &gt;</i></a> </dt>
+                  <dd>
+                    <a>板鞋</a>
+                    <a>凉鞋</a>
+                    <a>拖鞋</a>
+                  </dd>
+                </dl>
+              </div>
+
+              <div class="sub hide" data-id="2">
+                <dl>
+                  <dt><a >单鞋 <i> &gt;</i></a> </dt>
+                  <dd>
+                    <a>官方直售</a>
+                    <a>面膜</a>
+                    <a>护肤套装</a>
+                    <a>乳液面霜</a>
+                    <a>精华液</a>
+                  </dd>
+                </dl>
+                  <dl>
+                      <dt><a >凉鞋 <i> &gt;</i></a> </dt>
+                      <dd>
+                          <a>官方直售</a>
+                          <a>面膜</a>
+                          <a>护肤套装</a>
+                          <a>乳液面霜</a>
+                          <a>精华液</a>
+
+
+                      </dd>
+                  </dl>
+                  <dl>
+                      <dt><a >皮靴 <i> &gt;</i></a> </dt>
+                      <dd>
+                          <a>官方直售</a>
+                          <a>面膜</a>
+                          <a>护肤套装</a>
+                          <a>乳液面霜</a>
+                          <a>精华液</a>
+                      </dd>
+                  </dl>
+                  <dl>
+                      <dt><a >休闲鞋 <i> &gt;</i></a> </dt>
+                      <dd>
+                          <a>官方直售</a>
+                          <a>面膜</a>
+                          <a>护肤套装</a>
+                          <a>乳液面霜</a>
+                          <a>精华液</a>
+                      </dd>
+                  </dl>
+              </div>
+
+              <div class="sub hide" data-id="3">
+                <dl>
+                  <dt><a >布鞋 <i> &gt;</i></a> </dt>
+                  <dd>
+                    <a>官方直售</a>
+                    <a>饼干</a>
+                    <a>海苔</a>
+                    <a>火腿肠</a>
+                    <a>方便面</a>
+                  </dd>
+                </dl>
+                  <dl>
+                      <dt><a >凉鞋 <i> &gt;</i></a> </dt>
+                      <dd>
+                          <a>官方直售</a>
+                          <a>饼干</a>
+                          <a>海苔</a>
+                          <a>火腿肠</a>
+                          <a>方便面</a>
+                      </dd>
+                  </dl>
+              </div>
+              <div class="sub hide" data-id="4">
+                <dl>
+                  <dt><a >袜子 <i> &gt;</i></a> </dt>
+                  <dd>
+                    <a>童装</a>
+                    <a>秋换新</a>
+                  </dd>
+                </dl>
+                  <dl>
+                      <dt><a >鞋垫 <i> &gt;</i></a> </dt>
+                      <dd>
+                          <a>童装</a>
+                          <a>秋换新</a>
+                      </dd>
+                  </dl>
+                  <dl>
+                      <dt><a >鞋带 <i> &gt;</i></a> </dt>
+                      <dd>
+                          <a>童装</a>
+                          <a>秋换新</a>
+                      </dd>
+                  </dl>
+                  <dl>
+                      <dt><a >洗护用品 <i> &gt;</i></a> </dt>
+                      <dd>
+                          <a>童装</a>
+                          <a>秋换新</a>
+                      </dd>
+                  </dl>
+              </div>
+
+            </div>
+
+          <!--</div>-->
+
+
+
+        </div>
+      </div>
+      <div class="category-banner">
+        <div class="w1200">
+          <img src="../res/static/img/banner1.jpg">
+        </div>
+      </div>
+    </div>
+    <div class="floors">
+      <div class="sk">
+        <div class="sk_inner w1200">
+          <div class="sk_hd">
+            <a href="javascript:;">
+              <img src="../res/static/img/s_img1.jpg">
+            </a>
+          </div>
+          <div class="sk_bd">
+            <div class="layui-carousel" id="test1">
+              <div carousel-item>
+                <div class="item-box">
+                  <div class="item">
+                    <a href="javascript:;"><img src="../res/static/img/s_img2.jpg"></a>
+                    <div class="title">仙女风荷叶女凉鞋</div>
+                    <div class="price">
+                      <span>￥89.00</span>
+                      <del>￥99.00</del>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <a href="javascript:;"><img src="../res/static/img/s_img3.jpg"></a>
+                    <div class="title">包头中跟单鞋女</div>
+                    <div class="price">
+                      <span>￥468.00</span>
+                      <del>￥1298.00</del>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <a href="javascript:;"><img src="../res/static/img/s_img4.jpg"></a>
+                    <div class="title">男式运动鞋</div>
+                    <div class="price">
+                      <span>￥119.00</span>
+                      <del>￥199.00</del>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <a href="javascript:;"><img src="../res/static/img/s_img5.jpg"></a>
+                    <div class="title">女宝宝学步鞋</div>
+                    <div class="price">
+                      <span>￥69.00</span>
+                      <del>￥128.00</del>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-box">
+                  <div class="item">
+                    <a href="javascript:;"><img src="../res/static/img/s_img2.jpg"></a>
+                    <div class="title">仙女风荷叶女凉鞋</div>
+                    <div class="price">
+                      <span>￥89.00</span>
+                      <del>￥99.00</del>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <a href="javascript:;"><img src="../res/static/img/s_img3.jpg"></a>
+                    <div class="title">包头中跟单鞋女</div>
+                    <div class="price">
+                      <span>￥468.00</span>
+                      <del>￥1298.00</del>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <a href="javascript:;"><img src="../res/static/img/s_img4.jpg"></a>
+                    <div class="title">男式运动鞋</div>
+                    <div class="price">
+                      <span>￥119.00</span>
+                      <del>￥199.00</del>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <a href="javascript:;"><img src="../res/static/img/s_img5.jpg"></a>
+                    <div class="title">女宝宝学步鞋</div>
+                    <div class="price">
+                      <span>￥69.00</span>
+                      <del>￥128.00</del>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>    
+      </div>
+    </div>
+
+
+
+
+
+
+    <div class="hot-recommend-con">
+       <div class="hot-con1 w1200 layui-clear">
+          <div class="item">
+            <h4>热销推荐</h4>
+            <div class="big-img">
+              <a href="javascript:;"><img src="../res/static/img/hot1.png"></a>
+            </div>
+            <div class="small-img">
+              <a href="javascript:;"><img src="../res/static/img/hot2.png" alt=""></a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="top-img">
+              <a href="javascript:;"><img src="../res/static/img/hot5.jpg"></a>
+            </div>
+            <div class="bottom-img">
+              <a href="javascript:;"><img src="../res/static/img/hot6.jpg"></a>
+              <a class="baby-cream" href="javascript:;"><img src="../res/static/img/hot7.jpg"></a>
+            </div>
+          </div>
+          <div class="item item1 margin0 padding0">
+            <a href="javascript:;"><img src="../res/static/img/hot8.jpg"></a>
+            <a href="javascript:;"><img class="btm-img" src="../res/static/img/hot9.jpg"></a>
+          </div>
+      </div>
+    </div>
+    
+
+
+    <div class="product-cont w1200" id="product-cont">
+      <div class="product-item product-item1 layui-clear">
+        <div class="left-title">
+          <h4><i>1F</i></h4>
+          <img src="../res/static/img/icon_gou.png">
+          <h5>精品女鞋</h5>
+        </div>
+        <div class="right-cont">
+          <a href="javascript:;" class="top-img"><img src="../res/static/img/img12.jpg" alt=""></a>
+          <div class="img-box">
+            <a href="javascript:;"><img src="../res/static/img/s_img7.jpg"></a>
+            <a href="javascript:;"><img src="../res/static/img/s_img8.jpg"></a>
+            <a href="javascript:;"><img src="../res/static/img/s_img9.jpg"></a>
+            <a href="javascript:;"><img src="../res/static/img/s_img10.jpg"></a>
+            <a href="javascript:;"><img src="../res/static/img/s_img11.jpg"></a>
+          </div>
+        </div>
+      </div>
+      <div class="product-item product-item2 layui-clear">
+        <div class="left-title">
+          <h4><i>2F</i></h4>
+          <img src="../res/static/img/icon_gou.png">
+          <h5>精品男鞋</h5>
+        </div>
+        <div class="right-cont">
+          <a href="javascript:;" class="top-img"><img src="../res/static/img/img12.jpg" alt=""></a>
+          <div class="img-box">
+            <a href="javascript:;"><img src="../res/static/img/s_img12.jpg"></a>
+            <a href="javascript:;"><img src="../res/static/img/s_img13.jpg"></a>
+            <a href="javascript:;"><img src="../res/static/img/s_img14.jpg"></a>
+            <a href="javascript:;"><img src="../res/static/img/s_img15.jpg"></a>
+            <a href="javascript:;"><img src="../res/static/img/s_img16.jpg"></a>
+          </div>
+        </div>
+      </div>
+      <div class="product-item product-item3 layui-clear">
+        <div class="left-title">
+          <h4><i>3F</i></h4>
+          <img src="../res/static/img/icon_gou.png">
+          <h5>宝宝鞋</h5>
+        </div>
+        <div class="right-cont">
+          <a href="javascript:;" class="top-img"><img src="../res/static/img/img12.jpg" alt=""></a>
+          <div class="img-box">
+            <a href="javascript:;"><img src="../res/static/img/s_img22.jpg"></a>
+            <a href="javascript:;"><img src="../res/static/img/s_img23.jpg"></a>
+            <a href="javascript:;"><img src="../res/static/img/s_img24.jpg"></a>
+            <a href="javascript:;"><img src="../res/static/img/s_img25.jpg"></a>
+            <a href="javascript:;"><img src="../res/static/img/s_img26.jpg"></a>
+          </div>
+        </div>
+      </div>
+      <div class="product-item product-item3 layui-clear">
+        <div class="left-title"  style="background-color: #FFB5C5">
+          <h4><i>4F</i></h4>
+          <img src="../res/static/img/icon_gou.png">
+          <h5>周边用品</h5>
+        </div>
+        <div class="right-cont">
+          <a href="javascript:;" class="top-img"><img src="../res/static/img/img12.jpg" alt=""></a>
+          <div class="img-box">
+            <a href="javascript:;"><img src="../res/static/img/s_img17.jpg"></a>
+            <a href="javascript:;"><img src="../res/static/img/s_img18.jpg"></a>
+            <a href="javascript:;"><img src="../res/static/img/s_img19.jpg"></a>
+            <a href="javascript:;"><img src="../res/static/img/s_img20.jpg"></a>
+            <a href="javascript:;"><img src="../res/static/img/s_img21.jpg"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-list-box" id="product-list-box">
+      <div class="product-list-cont w1200">
+        <h4>更多推荐</h4>
+        <div class="product-item-box layui-clear">
+          <div class="list-item">
+            <a href="javascript:;"><img src="../res/static/img/more1.jpg"></a>
+            <p>婴幼儿软底学步鞋女宝宝包头凉鞋0-1-2一岁3小童公主鞋子透气夏季</p>
+            <span>￥59.00</span>
+          </div>
+          <div class="list-item">
+            <a href="javascript:;"><img src="../res/static/img/more2.jpg"></a>
+            <p>新款 女鞋 香草黄色露跟运动鞋帆布鞋</p>
+            <span>￥199.00</span>
+          </div>
+          <div class="list-item">
+            <a href="javascript:;"><img src="../res/static/img/more3.jpg"></a>
+            <p>法式高跟鞋细跟2020夏季新款仙女风性感浅口婚鞋蕾丝尖头网纱单鞋</p>
+            <span>￥528.00</span>
+          </div>
+          <div class="list-item">
+            <a href="javascript:;"><img src="../res/static/img/more4.jpg"></a>
+            <p>素面4色基本款羊皮高跟鞋</p>
+            <span>￥238.00</span>
+          </div>
+          <div class="list-item">
+            <a href="javascript:;"><img src="../res/static/img/more5.jpg"></a>
+            <p>男鞋夏季小白潮流百搭网面运动网眼网鞋网红透气薄款镂空老爹潮鞋</p>
+            <span>￥116.00</span>
+          </div>
+          <div class="list-item">
+            <a href="javascript:;"><img src="../res/static/img/more1.jpg"></a>
+            <p>婴幼儿软底学步鞋女宝宝包头凉鞋0-1-2一岁3小童公主鞋子透气夏季</p>
+            <span>￥59.00</span>
+          </div>
+          <div class="list-item">
+            <a href="javascript:;"><img src="../res/static/img/more2.jpg"></a>
+            <p>新款 女鞋 香草黄色露跟运动鞋帆布鞋</p>
+            <span>￥199.00</span>
+          </div>
+          <div class="list-item">
+            <a href="javascript:;"><img src="../res/static/img/more3.jpg"></a>
+            <p>法式高跟鞋细跟2020夏季新款仙女风性感浅口婚鞋蕾丝尖头网纱单鞋</p>
+            <span>￥528.00</span>
+          </div>
+          <div class="list-item">
+            <a href="javascript:;"><img src="../res/static/img/more4.jpg"></a>
+            <p>素面4色基本款羊皮高跟鞋</p>
+            <span>￥238.00</span>
+          </div>
+          <div class="list-item">
+            <a href="javascript:;"><img src="../res/static/img/more5.jpg"></a>
+            <p>男鞋夏季小白潮流百搭网面运动网眼网鞋网红透气薄款镂空老爹潮鞋</p>
+            <span>￥116.00</span>
+          </div>
+          <div class="list-item">
+            <a href="javascript:;"><img src="../res/static/img/more1.jpg"></a>
+            <p>婴幼儿软底学步鞋女宝宝包头凉鞋0-1-2一岁3小童公主鞋子透气夏季</p>
+            <span>￥59.00</span>
+          </div>
+          <div class="list-item">
+            <a href="javascript:;"><img src="../res/static/img/more2.jpg"></a>
+            <p>新款 女鞋 香草黄色露跟运动鞋帆布鞋</p>
+            <span>￥199.00</span>
+          </div>
+          <div class="list-item">
+            <a href="javascript:;"><img src="../res/static/img/more3.jpg"></a>
+            <p>法式高跟鞋细跟2020夏季新款仙女风性感浅口婚鞋蕾丝尖头网纱单鞋</p>
+            <span>￥528.00</span>
+          </div>
+          <div class="list-item">
+            <a href="javascript:;"><img src="../res/static/img/more4.jpg"></a>
+            <p>素面4色基本款羊皮高跟鞋</p>
+            <span>￥238.00</span>
+          </div>
+          <div class="list-item">
+            <a href="javascript:;"><img src="../res/static/img/more5.jpg"></a>
+            <p>男鞋夏季小白潮流百搭网面运动网眼网鞋网红透气薄款镂空老爹潮鞋</p>
+            <span>￥116.00</span>
+          </div>
+          <div class="list-item">
+            <a href="javascript:;"><img src="../res/static/img/more1.jpg"></a>
+            <p>婴幼儿软底学步鞋女宝宝包头凉鞋0-1-2一岁3小童公主鞋子透气夏季</p>
+            <span>￥59.00</span>
+          </div>
+          <div class="list-item">
+            <a href="javascript:;"><img src="../res/static/img/more2.jpg"></a>
+            <p>新款 女鞋 香草黄色露跟运动鞋帆布鞋</p>
+            <span>￥199.00</span>
+          </div>
+          <div class="list-item">
+            <a href="javascript:;"><img src="../res/static/img/more3.jpg"></a>
+            <p>法式高跟鞋细跟2020夏季新款仙女风性感浅口婚鞋蕾丝尖头网纱单鞋</p>
+            <span>￥528.00</span>
+          </div>
+          <div class="list-item">
+            <a href="javascript:;"><img src="../res/static/img/more4.jpg"></a>
+            <p>素面4色基本款羊皮高跟鞋</p>
+            <span>￥238.00</span>
+          </div>
+          <div class="list-item">
+            <a href="javascript:;"><img src="../res/static/img/more5.jpg"></a>
+            <p>男鞋夏季小白潮流百搭网面运动网眼网鞋网红透气薄款镂空老爹潮鞋</p>
+            <span>￥116.00</span>
+          </div>
+          <div class="list-item">
+            <a href="javascript:;"><img src="../res/static/img/more1.jpg"></a>
+            <p>婴幼儿软底学步鞋女宝宝包头凉鞋0-1-2一岁3小童公主鞋子透气夏季</p>
+            <span>￥59.00</span>
+          </div>
+          <div class="list-item">
+            <a href="javascript:;"><img src="../res/static/img/more2.jpg"></a>
+            <p>新款 女鞋 香草黄色露跟运动鞋帆布鞋</p>
+            <span>￥199.00</span>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="ng-promise-box">
+      <div class="ng-promise w1200">
+        <p class="text">
+          <a class="icon1" href="javascript:;">7天无理由退换货</a>
+          <a class="icon2" href="javascript:;">满99元全场免邮</a>
+          <a class="icon3" style="margin-right: 0" href="javascript:;">100%品质保证</a>
+        </p>
+      </div>
+    </div>
+    <div class="mod_help w1200">                                     
+      <p>
+        <a href="javascript:;">关于我们</a>
+        <span>|</span>
+        <a href="javascript:;">帮助中心</a>
+        <span>|</span>
+        <a href="javascript:;">售后服务</a>
+        <span>|</span>
+        <a href="javascript:;">鞋鞋资讯</a>
+        <span>|</span>
+        <a href="javascript:;">关于货源</a>
+      </p>
+      <p class="coty">鞋鞋商城版权所有 &copy; 2012-2020</p>
+    </div>
+  </div>
+  <script type="text/javascript">
+
+layui.config({
+    base: '../res/static/js/util/' //你存放新模块的目录，注意，不是layui的模块目录
+  }).use(['mm','carousel'],function(){
+      var carousel = layui.carousel,
+     mm = layui.mm;
+     var option = {
+        elem: '#test1'
+        ,width: '100%' //设置容器宽度
+        ,arrow: 'always'
+        ,height:'298' 
+        ,indicator:'none'
+      }
+      carousel.render(option);
+      // 模版引擎导入
+     // var ins = carousel.render(option);
+     // var html = demo.innerHTML;
+     // var listCont = document.getElementById('list-cont');
+     // // console.log(layui.router("#/about.html"))
+     //  mm.request({
+     //    url: '../json/index.json',
+     //    success : function(res){
+     //      console.log(res)
+     //      listCont.innerHTML = mm.renderHtml(html,res)
+     //      ins.reload(option);
+     //    },
+     //    error: function(res){
+     //      console.log(res);
+     //    }
+     //  })
+    
+
+});
+  </script>
+</body>
+</html>
